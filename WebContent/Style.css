@@ -1,0 +1,146 @@
+@CHARSET "ISO-8859-1";
+body
+{
+  padding-top: 2em;
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-bottom: 2em;
+  font-family: Georgia, "Times New Roman",
+        Times, serif;
+  color: white;
+  background-color: lightgrey;
+  background-image: url("378185.jpg");
+}
+
+.menu
+{
+background-color: lightgrey;
+opacity: 0.6;
+}
+p.title {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 75px;
+  color: black;
+}
+.menu a {
+    color: black;
+    font-size: 13px;
+}
+a {
+    color: yellow;
+}
+
+.footer{ 
+            
+       text-align: center;    
+       bottom: 0px; 
+       
+   }
+
+.footer a
+{
+color : blue;
+font-size: 17px;
+}
+.list td{
+    border: 1px solid white;
+    table-layout: fixed;
+    width: 200px;
+}
+
+.list tr:hover {
+    background: #ADD8E6;
+}
+.drop_button {
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-family: "Times New Roman", Times, serif;
+    height: 30px;
+    width: 150px;
+}
+.drop_button:hover, .drop_button:focus {
+    background: light grey;opacity: 0.6;
+}
+
+#browse_page_heading {
+	font-size: 27px;
+}
+.search_button 
+{  
+
+background-position: 0px -401px; 
+height: 100px;
+width: 200px;
+margin-top: -1px;
+padding-bottom: 2px;
+font-size: 25px;
+font-family: "Times New Roman", Times, serif;
+
+}
+.search_button:hover {background: light grey;opacity: 0.6;background-position: 0px -501px; }
+
+
+
+.autosearch {
+   width: 550px;
+   padding: 10px;
+  
+}
+
+
+
+a {
+  color: yellow;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.popupBox {
+  position: absolute;
+  right: 130px;
+  
+ 
+}
+
+.popupCell {
+   background-color: yellow;
+   width: 400px;
+}
+
+.popupCell:hover {
+  background-color: #f5ebe9;
+}
+
+.popupItem {
+  color: #333;
+  text-decoration: none;
+  font-size: 1.4em;
+}
+
+.pop{
+	display: none; /*Hidden by default */ 
+    position:absolute;
+
+  width: 400px;
+  border: 2px solid black;
+  background-color: #777;
+
+  color: white;
+  font-size: 0.95em;
+  border-radius: 7px;
+    background:#6b6a63;
+    margin:100px auto 0;
+    
+    top: 40%;
+    left: 75%;
+    margin-left: -400px; // 1/2 width
+    margin-top: -400px; // 1/2 height
+    opacity: 0.6;
+}
+
+p { margin:0 }
+   
